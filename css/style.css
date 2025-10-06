@@ -25,6 +25,13 @@
 html {
     scroll-behavior: smooth;
 }
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    transition: background-color 0.3s, color 0.3s;
+    line-height: 1.6;
+}
 header {
     background-color: var(--header-bg);
     backdrop-filter: blur(10px);
