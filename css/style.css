@@ -1,0 +1,12 @@
+:root {
+    --bg-color: #F8F4E3;
+    --text-color: #2C3E50;
+    --primary-color: #A0522D;
+    --secondary-color: #D2B48C;
+    --header-bg: rgba(248, 244, 227, 0.8);
+    --card-bg: #FFFFFF;
+    --footer-bg: #EAE0C8;
+    --shadow-color: rgba(0, 0, 0, 0.1);
+    --skeleton-bg: #e0e0e0;
+    --skeleton-shimmer: linear-gradient(90deg, #e0e0e0 0%, #f0f0f0 50%, #e0e0e0 100%);
+}
