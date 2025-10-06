@@ -102,4 +102,10 @@ header {
     background-color: var(--text-color);
     transition: all 0.3s ease-in-out;
 }
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 26px;
+}
 
