@@ -63,3 +63,9 @@ header {
 .nav-item {
     margin-left:28px;
 }
+.nav-link {
+    color: var(--text-color);
+    font-weight: 600;
+    
+}
+
