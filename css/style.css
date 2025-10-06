@@ -22,6 +22,9 @@
     --skeleton-bg: #333;
     --skeleton-shimmer: linear-gradient(90deg, #333 0%, #444 50%, #333 100%);
 }
+html {
+    scroll-behavior: smooth;
+}
 header {
     background-color: var(--header-bg);
     backdrop-filter: blur(10px);
@@ -33,8 +36,6 @@ header {
     z-index: 1000;
     transition: background-color 0.3s;
 }
-
-
 .navbar {
     display: flex;
     justify-content: space-between;
