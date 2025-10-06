@@ -60,3 +60,6 @@ header {
     list-style: none;
     align-items: center;
 }
+.nav-item {
+    margin-left:28px;
+}
