@@ -51,4 +51,8 @@ header {
     margin: 0 auto;
     padding: 16px 24px;
 }
+.nav-logo {
+    height:80px;
+    left:10px;
+}
 
