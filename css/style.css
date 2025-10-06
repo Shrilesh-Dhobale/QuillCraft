@@ -66,6 +66,7 @@ header {
 .nav-link {
     color: var(--text-color);
     font-weight: 600;
-    
+    position: relative;
+    padding-bottom: 5px;
 }
 
