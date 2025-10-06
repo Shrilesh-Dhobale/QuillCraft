@@ -10,3 +10,15 @@
     --skeleton-bg: #e0e0e0;
     --skeleton-shimmer: linear-gradient(90deg, #e0e0e0 0%, #f0f0f0 50%, #e0e0e0 100%);
 }
+[data-theme="dark"] {
+    --bg-color: #1A202C;
+    --text-color: #E2E8F0;
+    --primary-color: #F6AD55;
+    --secondary-color: #4A5568;
+    --header-bg: rgba(26, 32, 44, 0.8);
+    --card-bg: #2D3748;
+    --footer-bg: #12161f;
+    --shadow-color: rgba(0, 0, 0, 0.4);
+    --skeleton-bg: #333;
+    --skeleton-shimmer: linear-gradient(90deg, #333 0%, #444 50%, #333 100%);
+}
