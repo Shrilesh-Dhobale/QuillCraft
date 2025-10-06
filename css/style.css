@@ -22,3 +22,15 @@
     --skeleton-bg: #333;
     --skeleton-shimmer: linear-gradient(90deg, #333 0%, #444 50%, #333 100%);
 }
+header {
+    background-color: var(--header-bg);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-bottom: 1px solid var(--secondary-color);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    transition: background-color 0.3s;
+}
+
