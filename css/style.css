@@ -30,3 +30,6 @@
     --shadow: rgba(0, 0, 0, 0.4);
     --card-bg: #1e293b;
 }
+html {
+    scroll-behavior: smooth;
+}
