@@ -17,3 +17,16 @@
     --shadow: rgba(0, 0, 0, 0.1);
     --card-bg: #ffffff;
 }
+[data-theme="dark"] {
+    --primary: #818cf8;
+    --primary-dark: #6366f1;
+    --secondary: #34d399;
+    --accent: #fbbf24;
+    --bg: #0f172a;
+    --bg-secondary: #1e293b;
+    --text: #f1f5f9;
+    --text-secondary: #94a3b8;
+    --border: #334155;
+    --shadow: rgba(0, 0, 0, 0.4);
+    --card-bg: #1e293b;
+}
