@@ -113,3 +113,18 @@ nav {
     border-color: transparent;
     box-shadow: 0 5px 20px var(--shadow);
 }
+.cart-count {
+    position: absolute;
+    top: -8px;
+    right: -8px;
+    background: linear-gradient(135deg, var(--secondary), var(--accent));
+    color: white;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    font-size: 0.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: cartPulse 2s infinite;
+}
