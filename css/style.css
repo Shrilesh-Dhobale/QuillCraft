@@ -107,3 +107,9 @@ nav {
     padding: 0.2rem;
     border-radius: 12px;
 }
+.icon-btn:hover {
+    background: linear-gradient(135deg, var(--primary), var(--secondary));
+    color: white;
+    border-color: transparent;
+    box-shadow: 0 5px 20px var(--shadow);
+}
