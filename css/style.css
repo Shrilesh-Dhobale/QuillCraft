@@ -150,7 +150,7 @@ nav {
     background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 50%, var(--accent) 100%);
     color: white;
     overflow: hidden;
-    padding: 2rem;
+    padding: 0.5rem;
 }
 .hero-bg-animation {
     position: absolute;
@@ -172,4 +172,9 @@ nav {
     position: relative;
     z-index: 1;
     max-width: 900px;
+}
+.hero-title {
+    font-size: 5rem;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 2px 2px 20px rgba(0,0,0,0.2);
 }
