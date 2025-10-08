@@ -90,3 +90,6 @@ nav {
     background: linear-gradient(90deg, var(--primary), var(--secondary));
     transition: width 0.3s ease;
 }
+.nav-links a:hover::after {
+    width: 100%;
+}
