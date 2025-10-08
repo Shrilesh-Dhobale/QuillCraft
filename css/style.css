@@ -93,3 +93,6 @@ nav {
 .nav-links a:hover::after {
     width: 100%;
 }
+.nav-links a:hover {
+    color: var(--primary);
+}
