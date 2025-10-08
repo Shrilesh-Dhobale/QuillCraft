@@ -186,6 +186,11 @@ nav {
     opacity: 0.95;
     animation: fadeInUp 1s ease 0.2s backwards;
 }
+.hero-buttons {
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+}
 @keyframes fadeInUp {
     from {
         opacity: 0;
