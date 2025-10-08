@@ -127,4 +127,9 @@ nav {
     align-items: center;
     justify-content: center;
     font-weight: bold;
+    animation: cartPulse 2s infinite;
+}
+@keyframes cartPulse {
+    0%, 100% { transform: scale(1); }
+    50% { transform: scale(1.2); }
 }
