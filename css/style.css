@@ -51,3 +51,7 @@ header {
     transition: all 0.4s ease;
     backdrop-filter: blur(10px);
 }
+header.scrolled {
+    padding: 0.7rem 2rem;
+    box-shadow: 0 4px 30px var(--shadow);
+}
