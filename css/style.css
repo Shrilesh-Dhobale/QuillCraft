@@ -48,4 +48,6 @@ header {
     padding: 1rem 2rem;
     box-shadow: 0 2px 20px var(--shadow);
     background: var(--card-bg);
+    transition: all 0.4s ease;
+    backdrop-filter: blur(10px);
 }
