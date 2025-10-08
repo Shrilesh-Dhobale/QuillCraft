@@ -55,3 +55,10 @@ header.scrolled {
     padding: 0.7rem 2rem;
     box-shadow: 0 4px 30px var(--shadow);
 }
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1400px;
+    margin: 0 auto;
+}
