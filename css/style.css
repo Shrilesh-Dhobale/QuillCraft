@@ -100,7 +100,7 @@ nav {
     background: var(--bg-secondary);
     border: 2px solid var(--border);
     color: var(--text);
-    font-size: 1rem;
+    font-size: 1.1rem;
     cursor: pointer;
     transition: all 0.4s ease;
     position: relative;
