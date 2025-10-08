@@ -62,3 +62,9 @@ nav {
     max-width: 1400px;
     margin: 0 auto;
 }
+.logo img{
+    height:50px;
+    width: auto;
+    
+    left:10px
+}
