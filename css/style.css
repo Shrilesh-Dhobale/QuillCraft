@@ -126,5 +126,5 @@ nav {
     display: flex;
     align-items: center;
     justify-content: center;
-    animation: cartPulse 2s infinite;
+    font-weight: bold;
 }
