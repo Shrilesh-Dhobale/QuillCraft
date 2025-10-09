@@ -243,3 +243,8 @@ nav {
     transform: translateY(-5px) scale(1.05);
     box-shadow: 0 10px 30px rgba(0,0,0,0.3);
 }
+section {
+    padding: 5rem 2rem;
+    max-width: 1400px;
+    margin: 0 auto;
+}
