@@ -282,3 +282,7 @@ section {
     box-shadow: 0 15px 40px var(--shadow);
     border-color: var(--primary);
 }
+.feature-icon {
+    font-size: 4rem;
+    margin-bottom: 1.5rem;
+}
