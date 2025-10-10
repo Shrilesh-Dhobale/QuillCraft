@@ -285,4 +285,9 @@ section {
 .feature-icon {
     font-size: 4rem;
     margin-bottom: 1.5rem;
+    animation: iconFloat 3s ease-in-out infinite;
+}
+@keyframes iconFloat {
+    0%, 100% { transform: translateY(0) rotate(0deg); }
+    50% { transform: translateY(-10px) rotate(5deg); }
 }
