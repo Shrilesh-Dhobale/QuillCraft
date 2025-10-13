@@ -372,3 +372,8 @@ section {
     margin-bottom: 2rem;
     line-height: 1.8;
 }
+.customer-info {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
