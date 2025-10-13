@@ -401,3 +401,8 @@ section {
     cursor: pointer;
     transition: all 0.3s ease;
 }
+.slider-btn:hover {
+    transform: scale(1.2);
+    background: var(--primary-dark);
+    box-shadow: 0 5px 20px var(--shadow);
+}
