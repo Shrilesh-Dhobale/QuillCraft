@@ -356,4 +356,8 @@ section {
     transform: scale(1);
     position: relative;
 }
+.stars {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+}
 
