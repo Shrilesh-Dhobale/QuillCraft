@@ -324,3 +324,11 @@ section {
     box-shadow: 0 20px 40px var(--shadow);
     border-color: var(--primary);
 }
+
+
+
+.testimonials {
+    background: var(--bg-secondary);
+    border-radius: 30px;
+    padding: 5rem 2rem;
+}
