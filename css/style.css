@@ -380,3 +380,7 @@ section {
 .customer-info h4 {
     margin-bottom: 0.2rem;
 }
+.customer-info p {
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+}
