@@ -296,3 +296,7 @@ section {
     margin-bottom: 1rem;
     color: var(--text);
 }
+.feature-card p {
+    color: var(--text-secondary);
+    line-height: 1.8;
+}
