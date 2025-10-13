@@ -377,3 +377,6 @@ section {
     align-items: center;
     gap: 1rem;
 }
+.customer-info h4 {
+    margin-bottom: 0.2rem;
+}
