@@ -332,3 +332,9 @@ section {
     border-radius: 30px;
     padding: 5rem 2rem;
 }
+.testimonials-slider {
+    max-width: 800px;
+    margin: 0 auto;
+    position: relative;
+    min-height: 300px;
+}
