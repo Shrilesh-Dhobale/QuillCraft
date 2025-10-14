@@ -462,3 +462,7 @@ section {
     box-shadow: 0 5px 20px var(--shadow);
     transition: all 0.3s ease;
 }
+.contact-item:hover {
+    transform: translateX(10px);
+    box-shadow: 0 8px 30px var(--shadow);
+}
