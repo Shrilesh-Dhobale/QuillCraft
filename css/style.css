@@ -448,3 +448,8 @@ section {
     gap: 3rem;
     margin-top: 3rem;
 }
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
