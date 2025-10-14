@@ -423,3 +423,9 @@ section {
     margin-bottom: 2rem;
     opacity: 0.9;
 }
+.newsletter-form {
+    display: flex;
+    max-width: 600px;
+    margin: 0 auto;
+    gap: 1rem;
+}
