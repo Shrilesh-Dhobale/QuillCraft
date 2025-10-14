@@ -406,3 +406,11 @@ section {
     background: var(--primary-dark);
     box-shadow: 0 5px 20px var(--shadow);
 }
+.newsletter {
+    background: linear-gradient(135deg, var(--primary), var(--secondary));
+    padding: 5rem 2rem;
+    text-align: center;
+    color: white;
+    border-radius: 30px;
+    margin: 5rem 2rem;
+}
