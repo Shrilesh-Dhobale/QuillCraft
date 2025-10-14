@@ -438,3 +438,7 @@ section {
     background: white;
     color: var(--text);
 }
+.newsletter-form input:focus {
+    outline: none;
+    box-shadow: 0 0 0 4px rgba(255,255,255,0.3);
+}
