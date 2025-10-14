@@ -429,3 +429,12 @@ section {
     margin: 0 auto;
     gap: 1rem;
 }
+.newsletter-form input {
+    flex: 1;
+    padding: 1rem 1.5rem;
+    border: none;
+    border-radius: 50px;
+    font-size: 1rem;
+    background: white;
+    color: var(--text);
+}
