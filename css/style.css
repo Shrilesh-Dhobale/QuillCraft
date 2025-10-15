@@ -506,3 +506,7 @@ section {
     box-shadow: 0 0 0 4px rgba(99, 102, 241, 0.1);
     transform: translateY(-2px);
 }
+.contact-form textarea {
+    resize: vertical;
+    min-height: 150px;
+}
