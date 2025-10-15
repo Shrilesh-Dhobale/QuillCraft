@@ -578,3 +578,7 @@ footer {
     color: var(--text);
     font-size: 0.9rem;
 }
+.footer-newsletter input:focus {
+    outline: none;
+    border-color: var(--primary);
+}
