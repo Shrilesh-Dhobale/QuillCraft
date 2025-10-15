@@ -675,6 +675,11 @@ footer {
     .section-title {
         font-size: 2rem;
     }
+    .features-grid,
+    .products-grid {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
 }
 
 
