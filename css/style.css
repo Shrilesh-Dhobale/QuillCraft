@@ -480,3 +480,6 @@ section {
 .contact-item h3 {
     margin-bottom: 0.5rem;
 }
+.contact-item p {
+    color: var(--text-secondary);
+}
