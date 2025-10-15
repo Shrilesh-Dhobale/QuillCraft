@@ -683,6 +683,10 @@ footer {
      .newsletter-form {
         flex-direction: column;
     }
+    .contact-container {
+        grid-template-columns: 1fr;
+    }
+
 }
 
 
