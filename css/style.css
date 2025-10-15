@@ -542,3 +542,7 @@ footer {
     margin-bottom: 1rem;
     color: var(--text);
 }
+.footer-section p {
+    color: var(--text-secondary);
+    margin-bottom: 1rem;
+}
