@@ -669,6 +669,9 @@ footer {
     .hero-buttons {
         flex-direction: column;
     }
+     .btn {
+        width: 100%;
+    }
 }
 
 
