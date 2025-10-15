@@ -483,3 +483,8 @@ section {
 .contact-item p {
     color: var(--text-secondary);
 }
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
