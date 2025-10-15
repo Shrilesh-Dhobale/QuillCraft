@@ -621,6 +621,9 @@ footer {
     visibility: hidden;
     z-index: 999;
 }
-
-
+.fab.visible {
+    opacity: 1;
+    visibility: visible;
+    animation: fabBounce 2s infinite;
+}
 
