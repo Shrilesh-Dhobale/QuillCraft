@@ -538,3 +538,7 @@ footer {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+.footer-section h4 {
+    margin-bottom: 1rem;
+    color: var(--text);
+}
