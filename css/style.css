@@ -672,6 +672,9 @@ footer {
      .btn {
         width: 100%;
     }
+    .section-title {
+        font-size: 2rem;
+    }
 }
 
 
