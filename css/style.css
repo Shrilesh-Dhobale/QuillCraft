@@ -569,3 +569,12 @@ footer {
     display: flex;
     gap: 0.5rem;
 }
+.footer-newsletter input {
+    flex: 1;
+    padding: 0.8rem;
+    border: 2px solid var(--border);
+    border-radius: 10px;
+    background: var(--bg);
+    color: var(--text);
+    font-size: 0.9rem;
+}
