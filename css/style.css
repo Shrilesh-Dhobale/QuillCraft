@@ -693,7 +693,9 @@ footer {
     .social-links {
         justify-content: center;
     }
-
+    .footer-section a {
+        text-align: center;
+    }
 }
 
 
