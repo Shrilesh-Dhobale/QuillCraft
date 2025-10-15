@@ -557,3 +557,15 @@ footer {
     color: var(--primary);
     transform: translateX(5px);
 }
+.social-links {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+
+
+.footer-newsletter {
+    display: flex;
+    gap: 0.5rem;
+}
