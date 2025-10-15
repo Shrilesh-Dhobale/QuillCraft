@@ -488,3 +488,14 @@ section {
     flex-direction: column;
     gap: 1.5rem;
 }
+.contact-form input,
+.contact-form textarea {
+    padding: 1rem;
+    border: 2px solid var(--border);
+    border-radius: 15px;
+    font-size: 1rem;
+    background: var(--bg);
+    color: var(--text);
+    transition: all 0.3s ease;
+    font-family: inherit;
+}
