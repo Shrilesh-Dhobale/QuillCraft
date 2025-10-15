@@ -592,3 +592,6 @@ footer {
     transition: all 0.3s ease;
     font-size: 1.2rem;
 }
+.footer-newsletter button:hover {
+    transform: scale(1.1);
+}
