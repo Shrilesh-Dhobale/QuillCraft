@@ -510,3 +510,7 @@ section {
     resize: vertical;
     min-height: 150px;
 }
+.contact-form .btn {
+    background: linear-gradient(135deg, var(--primary), var(--secondary));
+    color: white;
+}
