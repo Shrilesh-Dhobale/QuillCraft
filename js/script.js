@@ -19,3 +19,7 @@ function initializeApp() {
     setupScrollAnimations();
     setupHeaderScroll();
 }
+function loadTheme() {
+    const savedTheme = sessionStorage.getItem('theme') || 'light';
+    document.documentElement.setAttribute('data-theme', savedTheme);
+}
