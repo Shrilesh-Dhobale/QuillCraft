@@ -10,3 +10,12 @@ let currentTestimonial = 0;
 document.addEventListener('DOMContentLoaded', () => {
     initializeApp();
 });
+function initializeApp() {
+    loadTheme();
+    renderProducts();
+    setupEventListeners();
+    updateCartCount();
+    startTestimonialSlider();
+    setupScrollAnimations();
+    setupHeaderScroll();
+}
