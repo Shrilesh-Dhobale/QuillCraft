@@ -6,3 +6,7 @@ const products = [
 ];
 let cart = [];
 let currentTestimonial = 0;
+
+document.addEventListener('DOMContentLoaded', () => {
+    initializeApp();
+});
