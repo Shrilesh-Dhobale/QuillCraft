@@ -4,3 +4,5 @@ const products = [
     { id: 3, name: 'Sticky Notes Pack', price: 5.99, emoji: '📝', desc: 'Colorful & adhesive notes' },
     { id: 4, name: 'Colored Markers', price: 15.99, emoji: '🖍️', desc: 'Vibrant colors for creativity' }
 ];
+let cart = [];
+let currentTestimonial = 0;
