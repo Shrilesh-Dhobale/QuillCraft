@@ -30,5 +30,9 @@ function toggleTheme() {
     html.setAttribute('data-theme', newTheme);
     sessionStorage.setItem('theme', newTheme);
     
-    
+    const themeBtn = document.getElementById('themeToggle');
+    themeBtn.style.transform = 'rotate(360deg)';
+    setTimeout(() => {
+        themeBtn.style.transform = '';
+    }, 400);
 }
