@@ -23,3 +23,12 @@ function loadTheme() {
     const savedTheme = sessionStorage.getItem('theme') || 'light';
     document.documentElement.setAttribute('data-theme', savedTheme);
 }
+function toggleTheme() {
+    const html = document.documentElement;
+    const currentTheme = html.getAttribute('data-theme');
+    const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+    html.setAttribute('data-theme', newTheme);
+    sessionStorage.setItem('theme', newTheme);
+    
+    
+}
