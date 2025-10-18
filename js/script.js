@@ -39,5 +39,17 @@ function toggleTheme() {
 function renderProducts() {
     const grid = document.getElementById('productsGrid');
     
-    
+    grid.innerHTML = products.map((product, index) => `
+        <div class="product-card" style="animation-delay: ${index * 0.1}s">
+            <div class="product-img">${product.emoji}</div>
+            <div class="product-info">
+                <h3>${product.name}</h3>
+                <p class="product-desc">${product.desc}</p>
+                <div class="product-price">$${product.price.toFixed(2)}</div>
+                <button class="btn btn-primary" onclick="addToCart(${product.id})">
+                    Add to Cart
+                </button>
+            </div>
+        </div>
+    `).join('');
 }
