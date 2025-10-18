@@ -36,3 +36,8 @@ function toggleTheme() {
         themeBtn.style.transform = '';
     }, 400);
 }
+function renderProducts() {
+    const grid = document.getElementById('productsGrid');
+    
+    
+}
