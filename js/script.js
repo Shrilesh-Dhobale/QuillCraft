@@ -64,4 +64,5 @@ function addToCart(productId) {
     }
     updateCartCount();
     showNotification(`${product.name} added to cart! 🎉`);
+    animateCartIcon();
 }
