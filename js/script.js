@@ -63,4 +63,5 @@ function addToCart(productId) {
         cart.push({ ...product, quantity: 1 });
     }
     updateCartCount();
+    showNotification(`${product.name} added to cart! 🎉`);
 }
