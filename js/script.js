@@ -62,4 +62,5 @@ function addToCart(productId) {
     } else {
         cart.push({ ...product, quantity: 1 });
     }
+    updateCartCount();
 }
