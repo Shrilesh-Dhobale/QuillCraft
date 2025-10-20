@@ -70,3 +70,10 @@ function updateCartCount() {
     const count = cart.reduce((sum, item) => sum + item.quantity, 0);
     document.getElementById('cartCount').textContent = count;
 }
+function animateCartIcon() {
+    const cartBtn = document.getElementById('cartBtn');
+    cartBtn.style.animation = 'none';
+    setTimeout(() => {
+        cartBtn.style.animation = 'cartPulse 0.5s ease';
+    }, 10);
+}
