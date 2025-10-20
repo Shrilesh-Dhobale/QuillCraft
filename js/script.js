@@ -66,3 +66,7 @@ function addToCart(productId) {
     showNotification(`${product.name} added to cart! 🎉`);
     animateCartIcon();
 }
+function updateCartCount() {
+    const count = cart.reduce((sum, item) => sum + item.quantity, 0);
+    document.getElementById('cartCount').textContent = count;
+}
