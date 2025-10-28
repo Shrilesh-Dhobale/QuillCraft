@@ -77,3 +77,6 @@ function animateCartIcon() {
         cartBtn.style.animation = 'cartPulse 0.5s ease';
     }, 10);
 }
+function startTestimonialSlider() {
+    const cards = document.querySelectorAll('.testimonial-card');
+}
