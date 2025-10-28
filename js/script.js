@@ -79,4 +79,7 @@ function animateCartIcon() {
 }
 function startTestimonialSlider() {
     const cards = document.querySelectorAll('.testimonial-card');
+    setInterval(() => {
+        nextTestimonial();
+    }, 5000);
 }
